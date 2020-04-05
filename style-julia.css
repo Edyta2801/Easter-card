@@ -76,13 +76,13 @@
 }
 
 .grid figure h2 {
-	word-spacing: -0.15em;
+	/* word-spacing: -0.15em; */
 	font-weight: 300;
 }
 
-.grid figure h2 span {
+/* .grid figure h2 span {
 	font-weight: 800;
-}
+} */
 
 .grid figure h2,
 .grid figure p {
