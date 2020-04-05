@@ -139,7 +139,7 @@ figure.effect-julia p {
 
 figure.effect-julia p:first-child {
 	-webkit-transition-delay: 0.15s;
-	transition-delay: 0.15s;
+	transition-delay: 0s;
 }
 
 figure.effect-julia p:nth-of-type(2) {
@@ -153,18 +153,27 @@ figure.effect-julia p:nth-of-type(3) {
 }
 
 figure.effect-julia:hover p:first-child {
-	-webkit-transition-delay: 0s;
-	transition-delay: 0s;
+	/* -webkit-transition-delay: 0s; */
+	transition-delay: 1s;
 }
 
 figure.effect-julia:hover p:nth-of-type(2) {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
+	/* -webkit-transition-delay: 0.05s; */
+	transition-delay: 1.15s;
 }
 
 figure.effect-julia:hover p:nth-of-type(3) {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
+	/* -webkit-transition-delay: 0.1s; */
+	transition-delay: 1.30s;
+}
+figure.effect-julia:hover p:nth-of-type(4) {
+	/* -webkit-transition-delay: 0.1s; */
+	transition-delay: 1.45s;
+}
+figure.effect-julia:hover p:nth-of-type(5) {
+	/* -webkit-transition-delay: 0.1s; */
+	transition-delay: 2s;
+
 }
 
 figure.effect-julia:hover img {
